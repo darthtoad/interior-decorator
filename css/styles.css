@@ -1,0 +1,56 @@
+body {
+  background: url(../img/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: limegreen;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+.column-1 {
+  border-style: outset;
+  border-color: red;
+  border-width: 5px;
+  float: left;
+  background-color: black;
+  color: brown;
+}
+
+.column-2 {
+  text-align: center;
+  border-style: outset;
+  border-color: red;
+  border-width: 5px;
+  width: 500px;
+  position: absolute;
+  right: 300px;
+  color: orange;
+  background-color: darkred;
+}
+
+.column-3 {
+  float: right;
+  text-align: right;
+  border-style: outset;
+  border-color: red;
+  border-width: 5px;
+  position: absolute;
+  top: 80px;
+  right: 0;
+  color: beige;
+  background-color: blue;
+}
+
+footer {
+  position: absolute;
+  bottom: 50px;
+}
+
+a {
+  color: lavender;
+}
