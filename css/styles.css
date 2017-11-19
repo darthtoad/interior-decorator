@@ -28,7 +28,7 @@ img {
   border-width: 5px;
   width: 500px;
   position: absolute;
-  right: 300px;
+  right: 27%;
   color: orange;
   background-color: darkred;
 }
@@ -53,4 +53,42 @@ footer {
 
 a {
   color: lavender;
+}
+
+@media screen and (max-width: 1000px) {
+
+  footer {
+    top: 100%;
+    }
+
+  .column-1 {
+    position: relative;
+  }
+
+  .column-2 {
+    position: relative;
+    right: 0;
+    float: left;
+    width: 300px;
+  }
+
+  .column-3 {
+    position: relative;
+    right: 0;
+    float: left;
+    top: 0;
+  }
+
+}
+
+@media screen and (max-width: 750px) {
+  footer {
+    top: 150%;
+  }
+}
+
+@media screen and (max-width: 538px) {
+  footer {
+    top: 200%;
+  }
 }
